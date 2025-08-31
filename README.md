@@ -1,4 +1,4 @@
-Product Insights Q&A (GenAI RAG)
+# Product Insights Q&A (GenAI RAG)
 
 This project demonstrates a retrieval-augmented generation (RAG) system for consumer products.
 It allows users to ask natural language questions about multiple shampoo brands and receive grounded answers based on product descriptions and real customer reviews.
@@ -7,7 +7,7 @@ The goal is to showcase practical GenAI skills: data preprocessing, embeddings, 
 
 ⸻
 
-Features
+## Features
 	•	Multi-brand comparison (e.g., Head & Shoulders vs Pantene vs CeraVe).
 	•	Evidence-based answers using OpenAI embeddings and GPT models.
 	•	FAISS vector index for semantic search over product descriptions and reviews.
@@ -16,7 +16,7 @@ Features
 
 ⸻
 
-Example
+## Example
 
 Question:
 Which shampoo is best for dandruff and a sensitive scalp?
@@ -26,25 +26,26 @@ Head & Shoulders Classic Clean Anti-Dandruff Shampoo is formulated to combat fla
 CeraVe Hydrating Shampoo is fragrance-free and suited for sensitive scalps, though it is not specifically marketed for dandruff [1][3].
 If dandruff is the main concern, Head & Shoulders is more effective; if sensitivity is the issue, CeraVe is gentler.
 
-Sources:
+## Sources:
 	•	[2] description | Head & Shoulders
 	•	[1][3] reviews | CeraVe
 
 ⸻
 
-Screenshots
-![Streamlit UI](screenshots/app_home.png)
-![Example Answer](screenshots/example_answer.png)
+## Screenshots
+
+![App home](screenshots/app_home.png)
+![Example answer](screenshots/example_answer.png)
 
 ⸻
 
-Requirements
+## Requirements
 	•	Python 3.10+
 	•	OpenAI API key
 	•	Packages: openai, faiss-cpu, streamlit, python-dotenv, pandas, numpy
 
 ⸻
 
-Notes
+## Notes
 	•	Index files (index/) and processed data are not committed; they can be rebuilt from raw CSVs.
 	•	The project can be extended to other product categories or larger datasets.
