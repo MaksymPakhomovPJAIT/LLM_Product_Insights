@@ -32,7 +32,7 @@ Sources:
 
 ⸻
 
- Screenshots
+Screenshots
 ![Streamlit UI](screenshots/app_home.png)
 ![Example Answer](screenshots/example_answer.png)
 
