@@ -8,11 +8,11 @@ The goal is to showcase practical GenAI skills: data preprocessing, embeddings, 
 ⸻
 
 ## Features
-	•	Multi-brand comparison (e.g., Head & Shoulders vs Pantene vs CeraVe).
-	•	Evidence-based answers using OpenAI embeddings and GPT models.
-	•	FAISS vector index for semantic search over product descriptions and reviews.
-	•	Interactive Streamlit interface with adjustable parameters (context size, similarity threshold, brand filter).
-	•	Transparent citations and context display.
+ - Multi-brand comparison (e.g., Head & Shoulders vs Pantene vs CeraVe).
+ - Evidence-based answers using OpenAI embeddings and GPT models.
+ - FAISS vector index for semantic search over product descriptions and reviews.
+ - Interactive Streamlit interface with adjustable parameters (context size, similarity threshold, brand filter).
+ - Transparent citations and context display.
 
 ⸻
 
@@ -26,7 +26,7 @@ Head & Shoulders Classic Clean Anti-Dandruff Shampoo is formulated to combat fla
 CeraVe Hydrating Shampoo is fragrance-free and suited for sensitive scalps, though it is not specifically marketed for dandruff [1][3].
 If dandruff is the main concern, Head & Shoulders is more effective; if sensitivity is the issue, CeraVe is gentler.
 
-## Sources:
+Sources:
 	•	[2] description | Head & Shoulders
 	•	[1][3] reviews | CeraVe
 
@@ -34,18 +34,18 @@ If dandruff is the main concern, Head & Shoulders is more effective; if sensitiv
 
 ## Screenshots
 
-![App home](screenshots/app_home.png)
+![App home](screenshots/app_home.png)  
 ![Example answer](screenshots/example_answer.png)
 
 ⸻
 
 ## Requirements
-	•	Python 3.10+
-	•	OpenAI API key
-	•	Packages: openai, faiss-cpu, streamlit, python-dotenv, pandas, numpy
+ - Python 3.10+
+ - OpenAI API key
+ - Packages: openai, faiss-cpu, streamlit, python-dotenv, pandas, numpy
 
 ⸻
 
 ## Notes
-	•	Index files (index/) and processed data are not committed; they can be rebuilt from raw CSVs.
-	•	The project can be extended to other product categories or larger datasets.
+ - Index files (index/) and processed data are not committed; they can be rebuilt from raw CSVs.
+ - The project can be extended to other product categories or larger datasets.
