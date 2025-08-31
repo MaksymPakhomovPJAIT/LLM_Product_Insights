@@ -34,8 +34,9 @@ Sources:
 
 ## Screenshots
 
-![App home](screenshots/app_home.png)  
-![Example answer](screenshots/example_answer.png)
+<img src="screenshots/app_home.png" alt="App home" width="500"/>
+
+<img src="screenshots/example_answer.png" alt="Example answer" width="500"/>
 
 ⸻
 
