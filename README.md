@@ -1,4 +1,4 @@
-# Product Insights Q&A (GenAI RAG)
+# Product Insights Q&A (GenAI RAG) 
 
 This project demonstrates a retrieval-augmented generation (RAG) system for consumer products.
 It allows users to ask natural language questions about multiple shampoo brands and receive grounded answers based on product descriptions and real customer reviews.
